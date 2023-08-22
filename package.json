@@ -1,3 +1,7 @@
 {
-  "name": "typescript-npm-workspace-example"
+  "name": "typescript-npm-workspace-example",
+  "workspaces": [
+    "logic",
+    "api"
+  ]
 }
