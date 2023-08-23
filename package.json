@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-workspace-example",
+  "name": "typescript-monorepo-example",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
