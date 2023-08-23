@@ -1,5 +1,10 @@
 {
   "name": "typescript-npm-workspace-example",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "watch": "tsc --build--watch"
+  },
   "workspaces": [
     "logic",
     "api"

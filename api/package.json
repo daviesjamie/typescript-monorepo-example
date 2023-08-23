@@ -1,14 +1,23 @@
 {
-  "name": "api",
+  "name": "@monorepo/api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "ts-node src/index.ts",
+    "watch": "tsc --build --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
+  },
   "dependencies": {
     "express": "^4.18.2"
   },

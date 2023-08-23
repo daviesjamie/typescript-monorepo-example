@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./logic/tsconfig.ref.json"
+    },
+    {
+      "path": "./api/tsconfig.ref.json"
+    }
+  ]
+}
